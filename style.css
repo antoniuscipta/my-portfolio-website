@@ -167,6 +167,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  position: relative;
 }
 
 .section__pic-container {
@@ -179,6 +180,10 @@ section {
 .profile-picture {
     border-radius: 5rem;
     transform: scaleX(-1);
+}
+
+.text-container {
+    text-align: center;
 }
 
 .section__text {
@@ -210,6 +215,8 @@ section {
   margin-top: 1rem;
   gap: 1rem;
 }
+
+
 
 /* icons */
 
