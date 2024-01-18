@@ -17,6 +17,13 @@ const observer = new IntersectionObserver((entries) => {
     });
 });
 
+const logoDiv = document.querySelector('.header-logo');
+
+
+logoDiv.addEventListener('click', function() {
+  window.location = 'https://main--antoniuscipta.netlify.app/';
+});
+
 const hiddenElements = document.querySelectorAll('.hidden');
 
 hiddenElements.forEach((el)=> observer.observe(el));
