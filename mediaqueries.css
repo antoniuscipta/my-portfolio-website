@@ -92,3 +92,20 @@
         text-align: justify;
     }
 } 
+
+.hidden {
+    opacity: 0;
+    filter: blur(3px);
+    transition: all 0.8s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+}
+
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
